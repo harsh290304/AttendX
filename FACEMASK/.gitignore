@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training datasets and personal attendance data
+data/
+outputs/
+
+# Trained classifier containing face-related data
+models/classifier.pkl
+
+# Generated logs
+*.log
