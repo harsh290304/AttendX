@@ -1,0 +1,12 @@
+backend/models/*
+!backend/models/classifier.pkl
+!backend/models/yolov8n-face.pt
+backend/models/insightface/
+*.onnx
+.env
+.env.*
+!.env.example
+
+node_modules/
+__pycache__/
+*.pyc
